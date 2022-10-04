@@ -216,196 +216,128 @@ let arr_science=[
 
 ]
 
-
-
-let container=document.getElementById("enter");
-
-
+let container_enter=document.getElementById("d1_inner");
 function renderDOM(data){
-    data.forEach((el) => {
-        let news=document.createElement("div");
-
+    container_enter.innerHTML=null;
+    data.forEach((el)=>{
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        container.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_enter.append(div)
     })
-
 }
-
 renderDOM(arr_entertainment)
 
 
-
-
-
-let containerlife=document.getElementById("lifestylecont");
-
+let container_style=document.getElementById("d2_inner");
 function renderDOMlife(data){
-    
-
-    data.forEach((el) => {
-        let news=document.createElement("div");
-
+    container_style.innerHTML=null;
+    data.forEach((el)=>{
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containerlife.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_style.append(div)
     })
-
 }
 renderDOMlife(arr_lifestyle);
 
-
-
-
-
-let containertech=document.getElementById("technologycont");
-
-
+let container_tech=document.getElementById("d3_inner");
 function renderDOMtech(data){
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containertech.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_tech.append(div)
     })
-
 }
-
 renderDOMtech(arr_technology);
 
-
-
-
-
-
-let containersports=document.getElementById("sportscont");
-
+let container_sports=document.getElementById("d4_inner");
 function renderDOMsports(data){
-    
-
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containersports.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_sports.append(div)
     })
-
 }
 renderDOMsports(arr_sports);
 
 
-
-
-
-let containernation=document.getElementById("nationcont");
-
+let container_nation=document.getElementById("d5_inner");
 function renderDOMnation(data){
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containernation.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_nation.append(div)
     })
-
 }
 renderDOMnation(arr_nation);
 
-
-
-
-let containerwolrd=document.getElementById("worldcont");
-
+let container_world=document.getElementById("d6_inner");
 function renderDOMworld(data){
-    
-
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containerwolrd.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_world.append(div)
     })
-
 }
 renderDOMworld(arr_world);
 
 
-
-
-let containerbusiness=document.getElementById("businesscont");
-
+let container_business=document.getElementById("d7_inner");
 function renderDOMbusiness(data){
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containerbusiness.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_business.append(div)
     })
-
 }
 renderDOMbusiness(arr_business);
 
-
-
-
-
-let containerscience=document.getElementById("sciencecont");
-
+let container_science=document.getElementById("d8_inner");
 function renderDOMscience(data){
-    
-
     data.forEach((el) => {
-        let news=document.createElement("div");
-
+        let div=document.createElement("div");
+        div.className="d1_div";
         let img=document.createElement("img");
-        img.src=el.image
-
-        let paragraph=document.createElement("h4");
-        paragraph.innerText=el.para;
-
-        news.append(img,paragraph);
-        containerscience.append(news);
+        img.src=el.image;
+        let headline=document.createElement("h4");
+        headline.innerText=el.para;
+        div.append(img,headline);
+        container_science.append(div)
     })
-
 }
 renderDOMscience(arr_science);
 
