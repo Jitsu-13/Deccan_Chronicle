@@ -31,7 +31,7 @@ function navbar() {
     <a href="entertain.html"><p>Entertainment</p></a>
     <a href="./education.html"><p>Jobs & Education</p></a>
     <a href="./sports.html"><p>Sports</p></a>
-    <a href="./tech.html"><p>Technology</p></a>
+    <a href="./technology.html"><p>Technology</p></a>
     <a href="./lifestyle.html"><p>Lifestyle</p></a>
     <a href="./gallery.html"><p>Gallery</p></a>
     <div id="more">
