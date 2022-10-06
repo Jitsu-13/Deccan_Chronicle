@@ -24,7 +24,7 @@ function navbar() {
     <p>Saturday, Oct 1, 2022 | Last Update : 07:16 PM IST</p>
 </div>
 <div class="flex">
-  <a href="./home.html"><p>Home</p></a>
+  <a href="./index.html"><p>Home</p></a>
     <a href="./nation.html"><p>Nation</p></a>
     <a href="./south.html"><p>South</p></a>
     <a href="./world.html"><p>World</p></a>
